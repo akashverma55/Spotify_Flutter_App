@@ -15,6 +15,7 @@ class SearchPage extends StatelessWidget {
           const AppBars(),
           const SizedBox(height: 12),
           const SearchBars(),
+          const SizedBox(height: 15),
           Expanded(
             child: SingleChildScrollView(
               child: Column(
@@ -31,7 +32,7 @@ class SearchPage extends StatelessWidget {
                   const SizedBox(height:20),  
                   const STitle(title: 'Browse all'),
                   const SizedBox(height:12),
-                  GridPopulars(data: gridPopularDataC),
+                  GridPopularcategory(data: gridPopularDataCa),
                 ],
               ),
             ),

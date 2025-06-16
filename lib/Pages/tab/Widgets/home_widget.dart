@@ -349,7 +349,7 @@ class SliderWidget2 extends StatelessWidget {
                     height: 150,
                     width: 150,
                     decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(5),
+                      shape: BoxShape.circle,
                       image: DecorationImage(
                         image: AssetImage(item['image']!),
                         fit: BoxFit.cover,

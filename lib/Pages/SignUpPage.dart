@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:spotifyy/Pages/LoginPage.dart';
 import 'package:spotifyy/constants/colors.dart';
+import 'package:spotifyy/Pages/tab/tab.dart';
 
 class SignUpPage extends StatelessWidget {
   const SignUpPage({super.key});
@@ -51,7 +52,9 @@ class SignUpPage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(context, MaterialPageRoute(builder: (context)=>MyHomePage()));
+                    },
                     style: ElevatedButton.styleFrom(
                       backgroundColor: ColorConstants.primaryColor,
                       padding: const EdgeInsets.symmetric(vertical: 18),
@@ -89,7 +92,7 @@ class SignUpPage extends StatelessWidget {
                   const SizedBox(height: 8),
                   TextButton(
                     onPressed: () {
-                      // Handle login action
+                      Navigator.push(context, MaterialPageRoute(builder: (context)=>MyHomePage()));
                     },
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.transparent,
@@ -129,8 +132,7 @@ class SignUpPage extends StatelessWidget {
                   const SizedBox(height: 8),
                   TextButton(
                     onPressed: () {
-                      // Handle login action
-                    },
+                      Navigator.push(context, MaterialPageRoute(builder: (context)=>MyHomePage()));                    },
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.transparent,
                       padding: const EdgeInsets.symmetric(vertical: 20),
@@ -179,7 +181,7 @@ class SignUpPage extends StatelessWidget {
                   ),
                   TextButton(
                     onPressed: () {
-                      Navigator.push(context, MaterialPageRoute(builder: (context)=>LoginPage()));// Handle sign up action
+                      Navigator.push(context, MaterialPageRoute(builder: (context)=>LoginPage()));
                     },
                     child: const Text(
                       'Log in',

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:spotifyy/Pages/tab/tab.dart';
 import 'package:spotifyy/constants/colors.dart';
 import 'package:spotifyy/Pages/SignUpPage.dart';
 
@@ -51,7 +52,9 @@ class LoginPage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(context, MaterialPageRoute(builder: (context)=>MyHomePage()));
+                    },
                     style: ElevatedButton.styleFrom(
                       backgroundColor: ColorConstants.primaryColor,
                       padding: const EdgeInsets.symmetric(vertical: 18),
@@ -89,7 +92,7 @@ class LoginPage extends StatelessWidget {
                   const SizedBox(height: 8),
                   TextButton(
                     onPressed: () {
-                      // Handle login action
+                      Navigator.push(context, MaterialPageRoute(builder: (context)=>MyHomePage()));
                     },
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.transparent,
@@ -129,7 +132,7 @@ class LoginPage extends StatelessWidget {
                   const SizedBox(height: 8),
                   TextButton(
                     onPressed: () {
-                      // Handle login action
+                      Navigator.push(context, MaterialPageRoute(builder: (context)=>MyHomePage()));
                     },
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.transparent,
@@ -169,7 +172,7 @@ class LoginPage extends StatelessWidget {
                   const SizedBox(height: 8),
                   TextButton(
                     onPressed: () {
-                      // Handle login action
+                      Navigator.push(context, MaterialPageRoute(builder: (context)=>MyHomePage()));
                     },
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.transparent,

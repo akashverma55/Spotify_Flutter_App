@@ -186,3 +186,65 @@ class Videos extends StatelessWidget {
   }
 }
 
+class GridPopularcategory extends StatelessWidget {
+  final List<Map<String, dynamic>> data;
+  const GridPopularcategory({Key? key, required this.data}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return GridView.builder(
+      shrinkWrap: true,
+      physics: NeverScrollableScrollPhysics(),
+      itemCount: data.length, 
+      gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
+        maxCrossAxisExtent: 200, // max width per tile
+        mainAxisSpacing: 12,
+        crossAxisSpacing: 12,
+        childAspectRatio: 2.5, // Wider tile shape
+      ),
+      itemBuilder: (context, index) {
+        final item = data[index];
+        return Container(
+          decoration: BoxDecoration(
+            color: hexToColor(item['color']),
+            borderRadius: BorderRadius.circular(5),
+          ),
+          child: Row(
+            children: [
+              Expanded(
+                child: Padding(
+                  padding: const EdgeInsets.only(left: 8.0),
+                  child: Text(
+                    item['title'],
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 14,
+                      fontWeight: FontWeight.w500,
+                    ),
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                ),
+              ),
+              SizedBox(width: 10),
+              Transform.rotate(
+                angle: 0.3, // tilt in radians (~11.5 degrees)
+                child: Container(
+                  height: 65,
+                  width: 65,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(5),
+                    image: DecorationImage(
+                      image: AssetImage(item['image']),
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+                ),
+              ),
+            ],
+          ),
+        );
+      },
+    );
+  }
+}
