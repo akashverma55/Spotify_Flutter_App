@@ -1,14 +1,3 @@
-final List<Map<String, dynamic>> slider = [
-  {
-    "title" : "30 Fresh music for you every week ",
-    "image" : "assets/images/yourDiscover.png",
-  },
-  {
-    "title" : "New songs every friday",
-    "image" : "assets/images/friday.png",
-  },
-];
-
 final List<Map<String, dynamic>> gridPopularData = [
   {
     "title": "Liked Songs",
@@ -200,16 +189,6 @@ List<Map<String, dynamic>> artists = [
     'name': 'Post Malone'
   }
 
-];
-
-List<String> searchList = [
-  'The Kid LAROI',
-  'Drake',
-  'Justin Bieber',
-  'Joji',
-  'Hip Hop',
-  'Pop',
-  'Top-Hits'
 ];
 
 final List<Map<String, dynamic>> podCast = [
