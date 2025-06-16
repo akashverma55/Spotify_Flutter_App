@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:spotifyy/Pages/GetStartedPage.dart';
 import 'package:spotifyy/Pages/tab/tab.dart';
 
 void main() {

@@ -9,6 +9,83 @@ final List<Map<String, dynamic>> slider = [
   },
 ];
 
+final List<Map<String, dynamic>> gridPopularData = [
+  {
+    "title": "Jhol",
+    "image": "assets/images/jhol.jpg",
+  },
+  {
+    "title": "SAO PAULO",
+    "image": "assets/images/sao.jpg",
+  },
+  {
+    "title": "Mind Of A Warrior",
+    "image": "assets/images/mind.jpg",
+  },
+  {
+    "title": "Good Vibes",
+    "image": "assets/images/vibes.jpg",
+  },
+  {
+    "title": "Phonk",
+    "image": "assets/images/phonk.jpg",
+  },
+  {
+    "title": "Hollywood Mushup",
+    "image": "assets/images/mushup.jpg",
+  },
+  {
+    "title": "Lofi Songs",
+    "image": "assets/images/lofi.jpg",
+  },
+  {
+    "title": "Jhol",
+    "image": "assets/images/jhol.jpg",
+  },
+];
+final List<Map<String, dynamic>> gridPopularDataC = [
+  {
+    "title": "Jhol",
+    "image": "assets/images/jhol.jpg",
+    "color": "#FF5733",
+  },
+  {
+    "title": "SAO PAULO",
+    "image": "assets/images/sao.jpg",
+    "color": "#33FF57",
+  },
+  {
+    "title": "Mind Of A Warrior",
+    "image": "assets/images/mind.jpg",
+    "color": "#3357FF",
+  },
+  {
+    "title": "Good Vibes",
+    "image": "assets/images/vibes.jpg",
+    "color": "#FF33A1",
+  },
+  {
+    "title": "Phonk",
+    "image": "assets/images/phonk.jpg",
+    "color": "#A133FF",
+  },
+  {
+    "title": "Hollywood Mushup",
+    "image": "assets/images/mushup.jpg",
+    "color": "#33FFF5",
+  },
+  {
+    "title": "Lofi Songs",
+    "image": "assets/images/lofi.jpg",
+    "color": "#F5FF33",
+  },
+  {
+    "title": "Jhol",
+    "image": "assets/images/jhol.jpg",
+    "color": "#FF5733",
+  },
+];
+
 final List<Map<String, dynamic>> topMixes = [
   {
     "title" : "Hip Hop Mix",
@@ -109,31 +186,65 @@ final List<Map<String, dynamic>> topHit = [
     {
       'image': 'assets/images/music1.png',
       'title': 'stay',
-      'description': 'The Kid LAROI, Justin Bieber',
-      'favorite': true,
+      'description': 'The Kid LAROI, Justin Bieber'
     },
     {
       'image': 'assets/images/wishingWall.png',
       'title': 'Wishing Well',
-      'description': 'Juice WLRD',
-      'favorite': false,
+      'description': 'Juice WLRD'
     },
     {
       'image': 'assets/images/jack.png',
       'title': 'First Class',
-      'description': 'Jack Harlow',
-      'favorite': true,
+      'description': 'Jack Harlow'
     },
     {
       'image': 'assets/images/Frame1.png',
       'title': 'Unstable',
-      'description': 'Justin Bieber, The Kid LAROI',
-      'favorite': false,
+      'description': 'Justin Bieber, The Kid LAROI'
     },
     {
       'image': 'assets/images/Group25.png',
       'title': 'Unstable',
-      'description': 'Justin Bieber, The Kid LAROI',
-      'favorite': false,
+      'description': 'Justin Bieber, The Kid LAROI'
     },
   ];
+
+final List<Map<String, dynamic>> videos = [
+  {
+    'image': 'assets/images/music1.png',
+    'title': '#desi pop'
+  },
+  {
+    'image': 'assets/images/music2.png',
+    'title': '#hindi lofi'
+  },
+  {
+    'image': 'assets/images/music3.png',
+    'title': '#gym phonk'
+  },
+];
+
+final List<Map<String, dynamic>> myListData = [
+  {
+    'image': 'assets/images/music1.png',
+    'title': 'Chill Vibes',
+    'description': 'Relaxing beats for a calm day',
+  },
+  {
+    'image': 'assets/images/music2.png',
+    'title': 'Workout Pump',
+    'description': 'High energy music to keep you moving',
+  },
+  {
+    'image': 'assets/images/artist1.png',
+    'title': 'Workout Pump',
+    'description': 'High energy music to keep you moving',
+  },
+  {
+    'image': 'assets/images/artist2.png',
+    'title': 'Workout Pump',
+    'description': 'High energy music to keep you moving',
+  },
+  // Add more items as needed
+];
