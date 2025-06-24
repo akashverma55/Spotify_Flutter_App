@@ -95,19 +95,18 @@ lib/
 - **Responsive Layout**: Adapts to different screen sizes
 - **Material Design**: Modern UI components and animations
 
-  
-  ![image](https://github.com/user-attachments/assets/15231908-b2da-4c6b-9fca-fbdac4ec1844)
   #### Starting Screen
-  ![image](https://github.com/user-attachments/assets/d1196162-299a-456f-85ac-881a8bc4c2d4)
+  ![image](https://github.com/user-attachments/assets/15231908-b2da-4c6b-9fca-fbdac4ec1844)
   #### Login Screen
-  ![image](https://github.com/user-attachments/assets/39f6887d-5a26-47c0-a33d-eca9d558bacd)
+  ![image](https://github.com/user-attachments/assets/d1196162-299a-456f-85ac-881a8bc4c2d4)
   #### SignUp Screen
-  ![image](https://github.com/user-attachments/assets/0be3ff64-cb68-47f7-afd0-35ef05362365)
+  ![image](https://github.com/user-attachments/assets/39f6887d-5a26-47c0-a33d-eca9d558bacd)
   #### Home Screen
-  ![image](https://github.com/user-attachments/assets/90b34b9a-02ba-4e26-900a-e9c9044eddd2)
+  ![image](https://github.com/user-attachments/assets/0be3ff64-cb68-47f7-afd0-35ef05362365)
   #### Search Screen
-  ![image](https://github.com/user-attachments/assets/5622ba41-7c05-41fe-88db-a721b6e20108)
+  ![image](https://github.com/user-attachments/assets/90b34b9a-02ba-4e26-900a-e9c9044eddd2)
   #### Library Screen
+  ![image](https://github.com/user-attachments/assets/5622ba41-7c05-41fe-88db-a721b6e20108)
 
 
 
